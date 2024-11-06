@@ -1,0 +1,20 @@
+{
+  "name": "onurb-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Bruno Hashimoto",
+  "license": "ISC",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.36.5",
+    "@open-wa/wa-decrypt": "^4.4.0",
+    "axios": "^0.27.2",
+    "nodemon": "^2.0.16",
+    "winston-transport": "^4.8.0"
+  }
+}
